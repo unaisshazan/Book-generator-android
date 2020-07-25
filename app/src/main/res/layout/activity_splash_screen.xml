@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.torab.splashscreen.SplashScreen">
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="میرا نام بلی ہے"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/line1" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="میرا نام بلی ہے"
+            android:layout_marginTop="60dp"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/line2" />
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/capture4"
+
+
+
+
+
+            />
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="500dp"
+            android:text="میرا نام بلی ہےvjh" />
+
+
+
+
+</RelativeLayout>
